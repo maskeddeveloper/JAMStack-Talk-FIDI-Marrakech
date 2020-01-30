@@ -82,35 +82,72 @@ Websites are served as static HTML files. These can be generated from source fil
 ![bg](#123)
 ![](#fff)
 
-##### BENEFITS
+#### BENEFITS
 
+##### 👉 Faster performance : 
+- Serve pre-built markup and assets over a CDN
 
-👉 Faster performance
-
-
----
-
-![bg right 70%](https://icongr.am/octicons/mark-github.svg)
-
-## **[GitHub Pages](https://github.com/pages)**
-
-#### Ready to write & host your deck!
-
-[![Fork on GitHub h:1.5em](https://img.shields.io/github/forks/yhatt/marp-cli-example?label=Fork&style=social)](https://github.com/yhatt/marp-cli-example)
-
-<!-- _footer: ":information_source: Require to pass ACCESS_TOKEN as secret." -->
+##### 👉 More secure : 
+- No need to worry about server or database vulnerabilities
+  
+##### 👉 Less expensive : 
+- Hosting of static files are cheap or even free
 
 ---
 
-![bg right 70%](https://www.netlify.com/img/press/logos/logomark.svg)
+![bg](#123)
+![](#fff)
 
-## **[Netlify](https://www.netlify.com/)**
+#### BENEFITS
 
-#### Ready to write & host your deck!
+##### 👉 Better developer experience : 
+- Front end developers can focus on the front end, without being tied to a monolithic architecture. This usually means quicker and more focused development
 
-[![Deploy to Netlify h:1.5em](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yhatt/marp-cli-example)
+##### 👉 Scalability : 
+- If your product suddenly goes viral and has many active users, the CDN seamlessly compensates
 
----
+
+
+
+--- 
+![bg](#123)
+![](#fff)
+
+#### BEST PRACTICES
+
+##### 👉 Content delivery network : 
+- Since all the markup and assets are pre-built, they can be served via CDN. This provides better performance and easier scalability.
+
+
+##### 👉 Atomic deploys : 
+- Each deploy is a full snapshot of the site. This helps guarantee a consistent version of the site globally.
+
+
+--- 
+![bg](#123)
+![](#fff)
+
+#### BEST PRACTICES
+
+##### 👉 Cache invalidation : 
+- Once your build is uploaded, the CDN invalidates its cache. This means that your new build is live in an instant.
+
+
+
+##### 👉 Everything in version control : 
+- Your codebase lives in Version Control System, such as Git. The main benefits are: change history of every file, collaborators and traceability.
+
+
+--- 
+![bg](#123)
+![](#fff)
+
+#### BEST PRACTICES
+
+##### 👉 Automated builds : 
+- Your server is notified when a new build is required, typically via webhooks. Server builds the project, updates the CDNs and the site is live.
+
+--- 
 
 ![bg right 70%](https://assets.zeit.co/image/upload/front/assets/design/now-black.svg)
 
