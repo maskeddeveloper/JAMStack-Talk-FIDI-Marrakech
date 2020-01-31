@@ -148,16 +148,44 @@ Websites are served as static HTML files. These can be generated from source fil
 - Your server is notified when a new build is required, typically via webhooks. Server builds the project, updates the CDNs and the site is live.
 
 --- 
+![bg](#123)
+![](#fff)
 
-![bg right 70%](https://assets.zeit.co/image/upload/front/assets/design/now-black.svg)
-
-## **[ZEIT Now](https://zeit.co/now)**
-
-#### Ready to write & host your deck!
-
-[![Deploy with ZEIT Now h:1.5em](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/yhatt/marp-cli-example)
+# Getting started
 
 ---
+
+![bg](#123)
+![](#fff)
+
+#### DEVELOPMENT
+##### 👉 Hand coding : 
+- Simple and effective method of writing HTML, it's ideal for super simple pages.
+
+##### 👉 Static Site Generators : 
+- Most JAMstack sites are powered by a static site generator. There's no enforcement on which SSG you decide to use.
+
+---
+![bg](#123)
+![](#fff)
+
+##### 👉 Frontend Framework
+- Most frameworks don't output static HTML files, however it is possible to do that but it requires more tooling experience and maintenance.
+
+--- 
+![bg](#123)
+![](#fff)
+#### DEPLOYMENT
+
+Your built site needs to be hosted somewhere. There are great services that provides this for free and with ease.
+
+--- 
+![bg](#123)
+![](#fff)
+# Demo
+
+---
+
 
 ### <!--fit--> :ok_hand:
 
